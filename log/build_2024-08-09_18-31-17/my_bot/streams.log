@@ -1,0 +1,45 @@
+[0.112s] Invoking command in '/home/winicon/smilebot_ws/build/my_bot': /usr/bin/cmake /home/winicon/smilebot_ws/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/winicon/smilebot_ws/install/my_bot
+[0.177s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.385s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.478s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.997s] Error parsing '/home/winicon/smilebot_ws/src/my_bot/package.xml':
+[2.349s] Traceback (most recent call last):
+[2.349s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[2.361s]     root = dom.parseString(data)
+[2.362s]   File "/usr/lib/python3.10/xml/dom/minidom.py", line 2000, in parseString
+[2.363s]     return expatbuilder.parseString(string)
+[2.363s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString
+[2.373s]     return builder.parseString(string)
+[2.375s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString
+[2.379s]     parser.Parse(string, True)
+[2.380s] xml.parsers.expat.ExpatError: mismatched tag: line 14, column 26
+[2.381s] 
+[2.381s] During handling of the above exception, another exception occurred:
+[2.382s] 
+[2.384s] Traceback (most recent call last):
+[2.386s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[2.388s]     main()
+[2.391s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[2.393s]     raise e
+[2.393s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[2.405s]     package = parse_package_string(
+[2.406s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[2.406s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[2.407s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/winicon/smilebot_ws/src/my_bot/package.xml':
+[2.407s] The manifest contains invalid XML:
+[2.408s] mismatched tag: line 14, column 26
+[2.562s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[2.563s]   execute_process(/usr/bin/python3
+[2.563s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[2.569s]   /home/winicon/smilebot_ws/src/my_bot/package.xml
+[2.575s]   /home/winicon/smilebot_ws/build/my_bot/ament_cmake_core/package.cmake)
+[2.576s]   returned error code 1
+[2.582s] Call Stack (most recent call first):
+[2.582s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[2.583s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[2.589s]   CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)
+[2.590s] 
+[2.591s] [0m
+[2.591s] -- Configuring incomplete, errors occurred!
+[2.592s] See also "/home/winicon/smilebot_ws/build/my_bot/CMakeFiles/CMakeOutput.log".
+[2.611s] Invoked command in '/home/winicon/smilebot_ws/build/my_bot' returned '1': /usr/bin/cmake /home/winicon/smilebot_ws/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/winicon/smilebot_ws/install/my_bot

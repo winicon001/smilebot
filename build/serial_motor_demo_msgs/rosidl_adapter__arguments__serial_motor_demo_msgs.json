@@ -1,0 +1,8 @@
+{
+  "package_name": "serial_motor_demo_msgs",
+  "non_idl_tuples": [
+    "/home/winicon/smilebot_ws/src/serial_motor_demo/serial_motor_demo_msgs:msg/MotorCommand.msg",
+    "/home/winicon/smilebot_ws/src/serial_motor_demo/serial_motor_demo_msgs:msg/MotorVels.msg",
+    "/home/winicon/smilebot_ws/src/serial_motor_demo/serial_motor_demo_msgs:msg/EncoderVals.msg"
+  ]
+}

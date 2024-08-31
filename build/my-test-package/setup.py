@@ -1,0 +1,1 @@
+/home/winicon/smilebot_ws/openCV/env/lib/python3.10/site-packages/pkg_resources/tests/data/my-test-package-source/setup.py

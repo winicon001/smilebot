@@ -1,0 +1,64 @@
+[0.043s] Invoking command in '/home/winicon/smilebot_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/winicon/smilebot_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/winicon/smilebot_ws/install/my_bot
+[0.847s] -- The C compiler identification is GNU 11.4.0
+[1.316s] -- The CXX compiler identification is GNU 11.4.0
+[1.357s] -- Detecting C compiler ABI info
+[1.722s] -- Detecting C compiler ABI info - done
+[1.749s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.751s] -- Detecting C compile features
+[1.753s] -- Detecting C compile features - done
+[1.768s] -- Detecting CXX compiler ABI info
+[2.146s] -- Detecting CXX compiler ABI info - done
+[2.174s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.175s] -- Detecting CXX compile features
+[2.177s] -- Detecting CXX compile features - done
+[2.235s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.019s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.381s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.705s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.217s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.302s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.313s] -- Added test 'lint_cmake' to check CMake code style
+[4.320s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.362s] -- Added test 'xmllint' to check XML markup files
+[4.371s] -- Configuring done
+[4.394s] -- Generating done
+[4.399s] -- Build files have been written to: /home/winicon/smilebot_ws/build/my_bot
+[4.417s] Invoked command in '/home/winicon/smilebot_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/winicon/smilebot_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/winicon/smilebot_ws/install/my_bot
+[4.428s] Invoking command in '/home/winicon/smilebot_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/winicon/smilebot_ws/build/my_bot -- -j4 -l4
+[4.576s] Invoked command in '/home/winicon/smilebot_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/winicon/smilebot_ws/build/my_bot -- -j4 -l4
+[4.723s] Invoking command in '/home/winicon/smilebot_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/winicon/smilebot_ws/build/my_bot
+[4.751s] -- Install configuration: ""
+[4.752s] -- Execute custom install script
+[4.755s] -- Symlinking: /home/winicon/smilebot_ws/install/my_bot/share/my_bot/config/empty.yaml
+[4.790s] -- Symlinking: /home/winicon/smilebot_ws/install/my_bot/share/my_bot/config/my_controllers.yaml
+[4.823s] -- Symlinking: /home/winicon/smilebot_ws/install/my_bot/share/my_bot/config/rvis_config01.rviz
+[4.855s] -- Symlinking: /home/winicon/smilebot_ws/install/my_bot/share/my_bot/config/rviz_config02.rviz
+[4.891s] -- Symlinking: /home/winicon/smilebot_ws/install/my_bot/share/my_bot/description/camera.xacro
+[4.925s] -- Symlinking: /home/winicon/smilebot_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[4.955s] -- Symlinking: /home/winicon/smilebot_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[4.991s] -- Symlinking: /home/winicon/smilebot_ws/install/my_bot/share/my_bot/description/lidar.xacro
+[5.023s] -- Symlinking: /home/winicon/smilebot_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[5.054s] -- Symlinking: /home/winicon/smilebot_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[5.090s] -- Symlinking: /home/winicon/smilebot_ws/install/my_bot/share/my_bot/description/ros2_control.xacro
+[5.122s] -- Symlinking: /home/winicon/smilebot_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[5.154s] -- Symlinking: /home/winicon/smilebot_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[5.191s] -- Symlinking: /home/winicon/smilebot_ws/install/my_bot/share/my_bot/worlds/cafe.world
+[5.222s] -- Symlinking: /home/winicon/smilebot_ws/install/my_bot/share/my_bot/worlds/construction.world
+[5.253s] -- Symlinking: /home/winicon/smilebot_ws/install/my_bot/share/my_bot/worlds/empty.world
+[5.286s] -- Symlinking: /home/winicon/smilebot_ws/install/my_bot/share/my_bot/worlds/robotSpace.world
+[5.321s] -- Symlinking: /home/winicon/smilebot_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[5.353s] -- Symlinking: /home/winicon/smilebot_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[5.390s] -- Symlinking: /home/winicon/smilebot_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[5.422s] -- Symlinking: /home/winicon/smilebot_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[5.454s] -- Symlinking: /home/winicon/smilebot_ws/install/my_bot/share/my_bot/environment/path.sh
+[5.491s] -- Symlinking: /home/winicon/smilebot_ws/install/my_bot/share/my_bot/environment/path.dsv
+[5.524s] -- Symlinking: /home/winicon/smilebot_ws/install/my_bot/share/my_bot/local_setup.bash
+[5.556s] -- Symlinking: /home/winicon/smilebot_ws/install/my_bot/share/my_bot/local_setup.sh
+[5.592s] -- Symlinking: /home/winicon/smilebot_ws/install/my_bot/share/my_bot/local_setup.zsh
+[5.623s] -- Symlinking: /home/winicon/smilebot_ws/install/my_bot/share/my_bot/local_setup.dsv
+[5.655s] -- Symlinking: /home/winicon/smilebot_ws/install/my_bot/share/my_bot/package.dsv
+[5.691s] -- Symlinking: /home/winicon/smilebot_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[5.723s] -- Symlinking: /home/winicon/smilebot_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[5.754s] -- Symlinking: /home/winicon/smilebot_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[5.791s] -- Symlinking: /home/winicon/smilebot_ws/install/my_bot/share/my_bot/package.xml
+[5.828s] Invoked command in '/home/winicon/smilebot_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/winicon/smilebot_ws/build/my_bot

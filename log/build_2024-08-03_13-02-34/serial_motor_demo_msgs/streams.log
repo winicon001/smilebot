@@ -1,0 +1,150 @@
+[0.146s] Invoking command in '/home/winicon/smilebot_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winicon/smilebot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/winicon/smilebot_ws/build/serial_motor_demo_msgs -- -j4 -l4
+[0.635s] [  2%] Built target serial_motor_demo_msgs__cpp
+[0.724s] [ 12%] Built target serial_motor_demo_msgs__rosidl_generator_c
+[0.895s] [ 12%] Built target ament_cmake_python_symlink_serial_motor_demo_msgs
+[0.971s] [ 23%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp
+[1.116s] [ 42%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp
+[1.122s] [ 44%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp
+[1.200s] [ 55%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c
+[1.464s] [ 65%] Built target serial_motor_demo_msgs__rosidl_typesupport_c
+[1.508s] [ 76%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c
+[1.788s] [ 76%] Built target serial_motor_demo_msgs
+[1.991s] [ 78%] Built target serial_motor_demo_msgs__py
+[2.212s] [ 87%] Built target serial_motor_demo_msgs__rosidl_generator_py
+[2.485s] [ 91%] Built target serial_motor_demo_msgs__rosidl_typesupport_c__pyext
+[2.487s] [ 95%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.495s] [100%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext
+[3.572s] running egg_info
+[3.575s] writing serial_motor_demo_msgs.egg-info/PKG-INFO
+[3.577s] writing dependency_links to serial_motor_demo_msgs.egg-info/dependency_links.txt
+[3.578s] writing top-level names to serial_motor_demo_msgs.egg-info/top_level.txt
+[3.601s] reading manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[3.605s] writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[3.767s] [100%] Built target ament_cmake_python_build_serial_motor_demo_msgs_egg
+[3.820s] Invoked command in '/home/winicon/smilebot_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winicon/smilebot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/winicon/smilebot_ws/build/serial_motor_demo_msgs -- -j4 -l4
+[4.550s] Invoking command in '/home/winicon/smilebot_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winicon/smilebot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/winicon/smilebot_ws/build/serial_motor_demo_msgs
+[4.587s] -- Install configuration: ""
+[4.588s] -- Execute custom install script
+[4.589s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/rosidl_interfaces/serial_motor_demo_msgs
+[4.593s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.h
+[4.594s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.h
+[4.595s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.h
+[4.596s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__functions.h
+[4.596s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__struct.h
+[4.597s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.h
+[4.598s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__functions.h
+[4.601s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__struct.h
+[4.601s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.h
+[4.603s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/encoder_vals.h
+[4.607s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_command.h
+[4.608s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_vels.h
+[4.608s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.608s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.sh
+[4.609s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.dsv
+[4.613s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_c.h
+[4.614s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h
+[4.615s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_c.h
+[4.618s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.620s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_c.h
+[4.623s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
+[4.624s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_c.h
+[4.625s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.628s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__builder.hpp
+[4.630s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.hpp
+[4.630s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__traits.hpp
+[4.631s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__builder.hpp
+[4.632s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__struct.hpp
+[4.633s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__traits.hpp
+[4.635s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__builder.hpp
+[4.635s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__struct.hpp
+[4.636s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__traits.hpp
+[4.637s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/encoder_vals.hpp
+[4.638s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_command.hpp
+[4.639s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_vels.hpp
+[4.643s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_cpp.hpp
+[4.644s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp
+[4.645s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_cpp.hpp
+[4.647s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.650s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_cpp.hpp
+[4.653s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp
+[4.654s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_cpp.hpp
+[4.655s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.sh
+[4.656s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.dsv
+[4.658s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[4.659s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.660s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.661s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[4.668s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/__init__.py
+[4.671s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_c.c
+[4.671s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.672s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.677s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/libserial_motor_demo_msgs__rosidl_generator_py.so
+[4.678s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/__init__.py
+[4.679s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_encoder_vals.py
+[4.680s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_encoder_vals_s.c
+[4.680s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_command.py
+[4.681s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_command_s.c
+[4.684s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_vels.py
+[4.685s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_vels_s.c
+[4.686s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[4.687s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[4.688s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[4.689s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[4.691s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[4.694s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[4.695s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.idl
+[4.695s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.idl
+[4.696s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.idl
+[4.697s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.msg
+[4.698s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.msg
+[4.707s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.msg
+[4.708s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/package_run_dependencies/serial_motor_demo_msgs
+[4.711s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/parent_prefix_path/serial_motor_demo_msgs
+[4.713s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.sh
+[4.714s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.dsv
+[4.715s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.sh
+[4.715s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.dsv
+[4.717s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.bash
+[4.718s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.sh
+[4.718s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.zsh
+[4.718s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.dsv
+[4.719s] -- Symlinking: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv
+[4.758s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/packages/serial_motor_demo_msgs
+[4.759s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake-extras.cmake
+[4.760s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.762s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.762s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.763s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.765s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.767s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.768s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig.cmake
+[4.769s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig-version.cmake
+[4.771s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.xml
+[4.774s] -- Up-to-date: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so
+[4.777s] -- Up-to-date: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so
+[4.779s] -- Up-to-date: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so
+[4.782s] -- Up-to-date: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so
+[4.787s] -- Up-to-date: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.788s] -- Up-to-date: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so
+[4.791s] -- Up-to-date: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so
+[4.995s] Listing '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs'...
+[4.996s] Listing '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg'...
+[5.019s] -- Up-to-date: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_py.so
+[5.022s] -- Up-to-date: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cExport.cmake
+[5.023s] -- Up-to-date: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.024s] -- Up-to-date: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.025s] -- Up-to-date: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.026s] -- Up-to-date: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.027s] -- Up-to-date: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.029s] -- Up-to-date: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport.cmake
+[5.031s] -- Up-to-date: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.032s] -- Up-to-date: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cppExport.cmake
+[5.034s] -- Up-to-date: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.037s] -- Up-to-date: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.037s] -- Up-to-date: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.038s] -- Up-to-date: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.038s] -- Up-to-date: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport.cmake
+[5.039s] -- Up-to-date: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.039s] -- Up-to-date: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_pyExport.cmake
+[5.040s] -- Up-to-date: /home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.047s] Invoked command in '/home/winicon/smilebot_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winicon/smilebot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/winicon/smilebot_ws/build/serial_motor_demo_msgs

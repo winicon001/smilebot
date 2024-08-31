@@ -1,0 +1,34 @@
+[0.172s] Invoking command in '/home/winicon/smilebot_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winicon/smilebot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/winicon/smilebot_ws/build/serial -- -j4 -l4
+[0.934s] [ 28%] Built target serial
+[1.004s] [ 42%] Built target gtest
+[1.037s] [ 57%] Built target gtest_main
+[1.482s] [ 71%] Built target serial_example
+[1.665s] [ 85%] Built target serial-test
+[1.737s] [100%] Built target serial-test-timer
+[2.134s] Invoked command in '/home/winicon/smilebot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winicon/smilebot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/winicon/smilebot_ws/build/serial -- -j4 -l4
+[3.208s] Invoking command in '/home/winicon/smilebot_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winicon/smilebot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/winicon/smilebot_ws/build/serial
+[3.273s] -- Install configuration: ""
+[3.276s] -- Execute custom install script
+[3.280s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial/lib/libserial.a
+[3.285s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial/include/serial/serial.h
+[3.290s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial/include/serial/v8stdint.h
+[3.293s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial/share/serial/environment/library_path.sh
+[3.296s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial/share/serial/environment/library_path.dsv
+[3.301s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[3.310s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[3.312s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[3.313s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[3.315s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial/share/serial/environment/path.sh
+[3.317s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial/share/serial/environment/path.dsv
+[3.321s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial/share/serial/local_setup.bash
+[3.323s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial/share/serial/local_setup.sh
+[3.341s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial/share/serial/local_setup.zsh
+[3.342s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial/share/serial/local_setup.dsv
+[3.342s] -- Symlinking: /home/winicon/smilebot_ws/install/serial/share/serial/package.dsv
+[3.398s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial/share/ament_index/resource_index/packages/serial
+[3.399s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.400s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[3.401s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[3.402s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[3.403s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/serial/share/serial/package.xml
+[3.434s] Invoked command in '/home/winicon/smilebot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winicon/smilebot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/winicon/smilebot_ws/build/serial

@@ -1,0 +1,28 @@
+[5.762s] Invoking command in '/home/winicon/smilebot_ws/build/robots_nav_contr': PYTHONPATH=/home/winicon/smilebot_ws/build/robots_nav_contr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/winicon/smilebot_ws/install/robots_nav_contr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/winicon/smilebot_ws/build/robots_nav_contr/build --no-deps symlink_data
+[7.963s] running develop
+[8.095s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[8.096s]   warnings.warn(
+[9.721s] running egg_info
+[9.722s] creating robots_nav_contr.egg-info
+[9.722s] writing robots_nav_contr.egg-info/PKG-INFO
+[9.723s] writing dependency_links to robots_nav_contr.egg-info/dependency_links.txt
+[9.725s] writing entry points to robots_nav_contr.egg-info/entry_points.txt
+[9.726s] writing requirements to robots_nav_contr.egg-info/requires.txt
+[9.726s] writing top-level names to robots_nav_contr.egg-info/top_level.txt
+[9.733s] writing manifest file 'robots_nav_contr.egg-info/SOURCES.txt'
+[9.741s] reading manifest file 'robots_nav_contr.egg-info/SOURCES.txt'
+[9.744s] writing manifest file 'robots_nav_contr.egg-info/SOURCES.txt'
+[9.751s] running build_ext
+[9.752s] Creating /home/winicon/smilebot_ws/install/robots_nav_contr/lib/python3.10/site-packages/robots-nav-contr.egg-link (link to .)
+[9.756s] Installing robot_command_receiver script to /home/winicon/smilebot_ws/install/robots_nav_contr/lib/robots_nav_contr
+[9.757s] Installing robots_nav_controller script to /home/winicon/smilebot_ws/install/robots_nav_contr/lib/robots_nav_contr
+[9.758s] Installing robots_serial_commands script to /home/winicon/smilebot_ws/install/robots_nav_contr/lib/robots_nav_contr
+[9.761s] 
+[9.765s] Installed /home/winicon/smilebot_ws/build/robots_nav_contr
+[9.766s] running symlink_data
+[9.767s] creating /home/winicon/smilebot_ws/install/robots_nav_contr/share/ament_index
+[9.769s] creating /home/winicon/smilebot_ws/install/robots_nav_contr/share/ament_index/resource_index
+[9.774s] creating /home/winicon/smilebot_ws/install/robots_nav_contr/share/ament_index/resource_index/packages
+[9.775s] symbolically linking /home/winicon/smilebot_ws/build/robots_nav_contr/resource/robots_nav_contr -> /home/winicon/smilebot_ws/install/robots_nav_contr/share/ament_index/resource_index/packages
+[9.777s] symbolically linking /home/winicon/smilebot_ws/build/robots_nav_contr/package.xml -> /home/winicon/smilebot_ws/install/robots_nav_contr/share/robots_nav_contr
+[9.945s] Invoked command in '/home/winicon/smilebot_ws/build/robots_nav_contr' returned '0': PYTHONPATH=/home/winicon/smilebot_ws/build/robots_nav_contr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/winicon/smilebot_ws/install/robots_nav_contr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/winicon/smilebot_ws/build/robots_nav_contr/build --no-deps symlink_data

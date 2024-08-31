@@ -1,0 +1,45 @@
+[0.186s] Invoking command in '/home/winicon/smilebot_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winicon/smilebot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/winicon/smilebot_ws/build/diffdrive_arduino -- -j4 -l4
+[3.105s] [35m[1mConsolidate compiler generated dependencies of target diffdrive_arduino[0m
+[3.106s] [100%] Built target diffdrive_arduino
+[3.190s] Invoked command in '/home/winicon/smilebot_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winicon/smilebot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/winicon/smilebot_ws/build/diffdrive_arduino -- -j4 -l4
+[3.625s] Invoking command in '/home/winicon/smilebot_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winicon/smilebot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/winicon/smilebot_ws/build/diffdrive_arduino
+[3.732s] -- Install configuration: ""
+[3.735s] -- Execute custom install script
+[3.736s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino//diffdrive_arduino.xml
+[3.749s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/arduino_comms.hpp
+[3.755s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/diffbot_system.hpp
+[3.758s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/visibility_control.h
+[3.761s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/wheel.hpp
+[3.763s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/view_robot.launch.py
+[3.766s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/ros2_control/diffbot.ros2_control.xacro
+[3.775s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.materials.xacro
+[3.778s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.urdf.xacro
+[3.780s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot_description.urdf.xacro
+[3.788s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot.rviz
+[3.791s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot_view.rviz
+[3.794s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/diffbot.launch.py
+[3.797s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/config/diffbot_controllers.yaml
+[3.808s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh
+[3.809s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv
+[3.809s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino
+[3.810s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino
+[3.811s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh
+[3.811s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv
+[3.812s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh
+[3.819s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv
+[3.825s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash
+[3.826s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh
+[3.828s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh
+[3.832s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv
+[3.837s] -- Symlinking: /home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv
+[3.889s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino
+[3.893s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino
+[3.897s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_targets-extras.cmake
+[3.903s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.911s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake
+[3.916s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake
+[3.920s] -- Up-to-date symlink: /home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.xml
+[3.923s] -- Up-to-date: /home/winicon/smilebot_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so
+[3.934s] -- Up-to-date: /home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport.cmake
+[3.936s] -- Up-to-date: /home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport-noconfig.cmake
+[3.946s] Invoked command in '/home/winicon/smilebot_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winicon/smilebot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/winicon/smilebot_ws/build/diffdrive_arduino

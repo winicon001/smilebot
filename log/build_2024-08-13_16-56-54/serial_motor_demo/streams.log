@@ -1,0 +1,22 @@
+[3.314s] Invoking command in '/home/winicon/smilebot_ws/build/serial_motor_demo': PYTHONPATH=/home/winicon/smilebot_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/winicon/smilebot_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/winicon/smilebot_ws/build/serial_motor_demo/build --no-deps symlink_data
+[4.502s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.503s]   warnings.warn(
+[4.621s] running develop
+[4.623s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.623s]   warnings.warn(
+[5.574s] running egg_info
+[5.574s] writing serial_motor_demo.egg-info/PKG-INFO
+[5.575s] writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+[5.577s] writing entry points to serial_motor_demo.egg-info/entry_points.txt
+[5.578s] writing requirements to serial_motor_demo.egg-info/requires.txt
+[5.578s] writing top-level names to serial_motor_demo.egg-info/top_level.txt
+[5.592s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[5.595s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[5.602s] running build_ext
+[5.602s] Creating /home/winicon/smilebot_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial-motor-demo.egg-link (link to .)
+[5.608s] Installing driver script to /home/winicon/smilebot_ws/install/serial_motor_demo/lib/serial_motor_demo
+[5.608s] Installing gui script to /home/winicon/smilebot_ws/install/serial_motor_demo/lib/serial_motor_demo
+[5.610s] 
+[5.610s] Installed /home/winicon/smilebot_ws/build/serial_motor_demo
+[5.610s] running symlink_data
+[5.748s] Invoked command in '/home/winicon/smilebot_ws/build/serial_motor_demo' returned '0': PYTHONPATH=/home/winicon/smilebot_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/winicon/smilebot_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/winicon/smilebot_ws/build/serial_motor_demo/build --no-deps symlink_data

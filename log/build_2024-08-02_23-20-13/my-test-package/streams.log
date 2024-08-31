@@ -1,0 +1,17 @@
+[5.067s] Invoking command in '/home/winicon/smilebot_ws/build/my-test-package': PYTHONPATH=/home/winicon/smilebot_ws/build/my-test-package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/winicon/smilebot_ws/install/my-test-package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/winicon/smilebot_ws/build/my-test-package/build --no-deps
+[6.836s] running develop
+[6.841s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[6.842s]   warnings.warn(
+[8.359s] running egg_info
+[8.360s] creating my_test_package.egg-info
+[8.362s] writing my_test_package.egg-info/PKG-INFO
+[8.363s] writing dependency_links to my_test_package.egg-info/dependency_links.txt
+[8.364s] writing top-level names to my_test_package.egg-info/top_level.txt
+[8.373s] writing manifest file 'my_test_package.egg-info/SOURCES.txt'
+[8.377s] reading manifest file 'my_test_package.egg-info/SOURCES.txt'
+[8.380s] writing manifest file 'my_test_package.egg-info/SOURCES.txt'
+[8.389s] running build_ext
+[8.392s] Creating /home/winicon/smilebot_ws/install/my-test-package/lib/python3.10/site-packages/my-test-package.egg-link (link to .)
+[8.397s] 
+[8.399s] Installed /home/winicon/smilebot_ws/build/my-test-package
+[8.619s] Invoked command in '/home/winicon/smilebot_ws/build/my-test-package' returned '0': PYTHONPATH=/home/winicon/smilebot_ws/build/my-test-package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/winicon/smilebot_ws/install/my-test-package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/winicon/smilebot_ws/build/my-test-package/build --no-deps
