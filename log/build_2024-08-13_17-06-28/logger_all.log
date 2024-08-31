@@ -1,0 +1,485 @@
+[0.498s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.498s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff9b575720>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9b574670>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9b574670>>)
+[1.501s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.502s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.502s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.502s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.502s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.502s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.503s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/winicon/smilebot_ws'
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.555s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.557s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.557s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.557s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.558s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.559s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.559s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.560s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.560s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.560s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.561s] Level 1:colcon.colcon_core.package_identification:_identify(pictures) by extensions ['ignore', 'ignore_ament_install']
+[1.561s] Level 1:colcon.colcon_core.package_identification:_identify(pictures) by extension 'ignore'
+[1.561s] Level 1:colcon.colcon_core.package_identification:_identify(pictures) by extension 'ignore_ament_install'
+[1.561s] Level 1:colcon.colcon_core.package_identification:_identify(pictures) by extensions ['colcon_pkg']
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(pictures) by extension 'colcon_pkg'
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(pictures) by extensions ['colcon_meta']
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(pictures) by extension 'colcon_meta'
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(pictures) by extensions ['ros']
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(pictures) by extension 'ros'
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(pictures) by extensions ['cmake', 'python']
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(pictures) by extension 'cmake'
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(pictures) by extension 'python'
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(pictures) by extensions ['python_setup_py']
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(pictures) by extension 'python_setup_py'
+[1.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.568s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.568s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.568s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.568s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.569s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.569s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.569s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ignore', 'ignore_ament_install']
+[1.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore'
+[1.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore_ament_install'
+[1.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_pkg']
+[1.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_pkg'
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_meta']
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_meta'
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ros']
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ros'
+[1.583s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diffdrive_arduino' with type 'ros.ament_cmake' and name 'diffdrive_arduino'
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['ignore', 'ignore_ament_install']
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ignore'
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ignore_ament_install'
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['colcon_pkg']
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'colcon_pkg'
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['colcon_meta']
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'colcon_meta'
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['ros']
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ros'
+[1.587s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_bot' with type 'ros.ament_cmake' and name 'my_bot'
+[1.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extensions ['ignore', 'ignore_ament_install']
+[1.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extension 'ignore'
+[1.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extension 'ignore_ament_install'
+[1.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extensions ['colcon_pkg']
+[1.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extension 'colcon_pkg'
+[1.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extensions ['colcon_meta']
+[1.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extension 'colcon_meta'
+[1.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extensions ['ros']
+[1.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extension 'ros'
+[1.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extensions ['cmake', 'python']
+[1.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extension 'cmake'
+[1.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extension 'python'
+[1.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extensions ['python_setup_py']
+[1.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge) by extension 'python_setup_py'
+[1.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extensions ['ignore', 'ignore_ament_install']
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extension 'ignore'
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extension 'ignore_ament_install'
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extensions ['colcon_pkg']
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extension 'colcon_pkg'
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extensions ['colcon_meta']
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extension 'colcon_meta'
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extensions ['ros']
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extension 'ros'
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extensions ['cmake', 'python']
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extension 'cmake'
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extension 'python'
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extensions ['python_setup_py']
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge/ROSArduinoBridge) by extension 'python_setup_py'
+[1.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge_1) by extensions ['ignore', 'ignore_ament_install']
+[1.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge_1) by extension 'ignore'
+[1.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge_1) by extension 'ignore_ament_install'
+[1.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge_1) by extensions ['colcon_pkg']
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge_1) by extension 'colcon_pkg'
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge_1) by extensions ['colcon_meta']
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge_1) by extension 'colcon_meta'
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge_1) by extensions ['ros']
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge_1) by extension 'ros'
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge_1) by extensions ['cmake', 'python']
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge_1) by extension 'cmake'
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge_1) by extension 'python'
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge_1) by extensions ['python_setup_py']
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge_1) by extension 'python_setup_py'
+[1.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge_1/ROSArduinoBridge) by extensions ['ignore', 'ignore_ament_install']
+[1.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge_1/ROSArduinoBridge) by extension 'ignore'
+[1.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge_1/ROSArduinoBridge) by extension 'ignore_ament_install'
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge_1/ROSArduinoBridge) by extensions ['colcon_pkg']
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge_1/ROSArduinoBridge) by extension 'colcon_pkg'
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge_1/ROSArduinoBridge) by extensions ['colcon_meta']
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge_1/ROSArduinoBridge) by extension 'colcon_meta'
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge_1/ROSArduinoBridge) by extensions ['ros']
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge_1/ROSArduinoBridge) by extension 'ros'
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge_1/ROSArduinoBridge) by extensions ['cmake', 'python']
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge_1/ROSArduinoBridge) by extension 'cmake'
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge_1/ROSArduinoBridge) by extension 'python'
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge_1/ROSArduinoBridge) by extensions ['python_setup_py']
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_arduino_bridge_1/ROSArduinoBridge) by extension 'python_setup_py'
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ignore', 'ignore_ament_install']
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore'
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore_ament_install'
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_pkg']
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_pkg'
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_meta']
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_meta'
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ros']
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ros'
+[1.609s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial' with type 'ros.ament_cmake' and name 'serial'
+[1.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ignore'
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ignore_ament_install'
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['colcon_pkg']
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'colcon_pkg'
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['colcon_meta']
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'colcon_meta'
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['ros']
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ros'
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['cmake', 'python']
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'cmake'
+[1.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'python'
+[1.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['python_setup_py']
+[1.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'python_setup_py'
+[1.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[1.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ignore'
+[1.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ignore_ament_install'
+[1.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['colcon_pkg']
+[1.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'colcon_pkg'
+[1.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['colcon_meta']
+[1.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'colcon_meta'
+[1.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['ros']
+[1.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ros'
+[1.619s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_motor_demo/serial_motor_demo' with type 'ros.ament_python' and name 'serial_motor_demo'
+[1.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore'
+[1.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore_ament_install'
+[1.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_pkg']
+[1.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_pkg'
+[1.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_meta']
+[1.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_meta'
+[1.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ros']
+[1.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ros'
+[1.624s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_motor_demo/serial_motor_demo_msgs' with type 'ros.ament_cmake' and name 'serial_motor_demo_msgs'
+[1.624s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.625s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.625s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.625s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.625s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.757s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.757s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.769s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/winicon/smilebot_ws/install
+[1.781s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 325 installed packages in /opt/ros/humble
+[1.788s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.002s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_args' from command line to 'None'
+[2.002s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target' from command line to 'None'
+[2.002s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.003s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[2.003s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[2.003s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[2.003s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[2.003s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[2.003s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.003s] DEBUG:colcon.colcon_core.verb:Building package 'diffdrive_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/winicon/smilebot_ws/build/diffdrive_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/winicon/smilebot_ws/install/diffdrive_arduino', 'merge_install': False, 'path': '/home/winicon/smilebot_ws/src/diffdrive_arduino', 'symlink_install': True, 'test_result_base': None}
+[2.005s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_args' from command line to 'None'
+[2.005s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target' from command line to 'None'
+[2.005s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.005s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[2.005s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_first' from command line to 'False'
+[2.006s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_force_configure' from command line to 'False'
+[2.006s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'ament_cmake_args' from command line to 'None'
+[2.006s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[2.006s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.006s] DEBUG:colcon.colcon_core.verb:Building package 'my_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/winicon/smilebot_ws/build/my_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/winicon/smilebot_ws/install/my_bot', 'merge_install': False, 'path': '/home/winicon/smilebot_ws/src/my_bot', 'symlink_install': True, 'test_result_base': None}
+[2.007s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[2.008s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[2.008s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.008s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[2.008s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[2.008s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[2.008s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[2.008s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[2.008s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.009s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/winicon/smilebot_ws/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/winicon/smilebot_ws/install/serial', 'merge_install': False, 'path': '/home/winicon/smilebot_ws/src/serial', 'symlink_install': True, 'test_result_base': None}
+[2.010s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_args' from command line to 'None'
+[2.010s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target' from command line to 'None'
+[2.010s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.010s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.010s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[2.011s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[2.011s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[2.011s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.011s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.011s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/winicon/smilebot_ws/build/serial_motor_demo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs', 'merge_install': False, 'path': '/home/winicon/smilebot_ws/src/serial_motor_demo/serial_motor_demo_msgs', 'symlink_install': True, 'test_result_base': None}
+[2.013s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_args' from command line to 'None'
+[2.013s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target' from command line to 'None'
+[2.013s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.013s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[2.014s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_first' from command line to 'False'
+[2.014s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_force_configure' from command line to 'False'
+[2.014s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'ament_cmake_args' from command line to 'None'
+[2.014s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[2.014s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.014s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/winicon/smilebot_ws/build/serial_motor_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/winicon/smilebot_ws/install/serial_motor_demo', 'merge_install': False, 'path': '/home/winicon/smilebot_ws/src/serial_motor_demo/serial_motor_demo', 'symlink_install': True, 'test_result_base': None}
+[2.015s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.018s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.019s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/winicon/smilebot_ws/src/serial_motor_demo/serial_motor_demo_msgs' with build type 'ament_cmake'
+[2.020s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/winicon/smilebot_ws/src/serial_motor_demo/serial_motor_demo_msgs'
+[2.031s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.032s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.033s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.055s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/winicon/smilebot_ws/src/diffdrive_arduino' with build type 'ament_cmake'
+[2.056s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/winicon/smilebot_ws/src/diffdrive_arduino'
+[2.057s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.058s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.083s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/winicon/smilebot_ws/src/my_bot' with build type 'ament_cmake'
+[2.084s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/winicon/smilebot_ws/src/my_bot'
+[2.085s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.086s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.110s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/winicon/smilebot_ws/src/serial' with build type 'ament_cmake'
+[2.111s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/winicon/smilebot_ws/src/serial'
+[2.112s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.113s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.157s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/winicon/smilebot_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winicon/smilebot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/winicon/smilebot_ws/build/serial_motor_demo_msgs -- -j4 -l4
+[2.189s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/winicon/smilebot_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winicon/smilebot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/winicon/smilebot_ws/build/diffdrive_arduino -- -j4 -l4
+[2.207s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/winicon/smilebot_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winicon/smilebot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/winicon/smilebot_ws/build/my_bot -- -j4 -l4
+[2.240s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/winicon/smilebot_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winicon/smilebot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/winicon/smilebot_ws/build/serial -- -j4 -l4
+[2.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/winicon/smilebot_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winicon/smilebot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/winicon/smilebot_ws/build/my_bot -- -j4 -l4
+[2.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/winicon/smilebot_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winicon/smilebot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/winicon/smilebot_ws/build/diffdrive_arduino -- -j4 -l4
+[3.102s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/winicon/smilebot_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winicon/smilebot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/winicon/smilebot_ws/build/my_bot
+[3.256s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/winicon/smilebot_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winicon/smilebot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/winicon/smilebot_ws/build/diffdrive_arduino
+[3.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/winicon/smilebot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winicon/smilebot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/winicon/smilebot_ws/build/serial -- -j4 -l4
+[3.462s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[3.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/winicon/smilebot_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winicon/smilebot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/winicon/smilebot_ws/build/my_bot
+[3.493s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/my_bot' for CMake module files
+[3.512s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/my_bot' for CMake config files
+[3.532s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[3.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/smilebot_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[3.536s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/winicon/smilebot_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[3.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/smilebot_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[3.553s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/my_bot/bin'
+[3.554s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/my_bot/lib/pkgconfig/my_bot.pc'
+[3.555s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/my_bot/lib/python3.10/site-packages'
+[3.558s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/my_bot/bin'
+[3.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/my_bot/share/my_bot/package.ps1'
+[3.566s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/winicon/smilebot_ws/install/my_bot/share/my_bot/package.dsv'
+[3.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/my_bot/share/my_bot/package.sh'
+[3.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/my_bot/share/my_bot/package.bash'
+[3.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/my_bot/share/my_bot/package.zsh'
+[3.599s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/winicon/smilebot_ws/install/my_bot/share/colcon-core/packages/my_bot)
+[3.618s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[3.623s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/diffdrive_arduino' for CMake module files
+[3.621s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/winicon/smilebot_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winicon/smilebot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/winicon/smilebot_ws/build/diffdrive_arduino
+[3.629s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/diffdrive_arduino' for CMake config files
+[3.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[3.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[3.643s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[3.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[3.655s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/diffdrive_arduino/lib'
+[3.658s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[3.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[3.666s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[3.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[3.680s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/diffdrive_arduino/bin'
+[3.691s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[3.692s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/diffdrive_arduino/lib/python3.10/site-packages'
+[3.694s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/diffdrive_arduino/bin'
+[3.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[3.713s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[3.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[3.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[3.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[3.738s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/winicon/smilebot_ws/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[3.869s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[3.871s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/my_bot' for CMake module files
+[3.878s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/my_bot' for CMake config files
+[3.882s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[3.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/smilebot_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[3.898s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/winicon/smilebot_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[3.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/smilebot_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[3.911s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/my_bot/bin'
+[3.911s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/my_bot/lib/pkgconfig/my_bot.pc'
+[3.915s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/my_bot/lib/python3.10/site-packages'
+[3.917s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/my_bot/bin'
+[3.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/my_bot/share/my_bot/package.ps1'
+[3.924s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/winicon/smilebot_ws/install/my_bot/share/my_bot/package.dsv'
+[3.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/my_bot/share/my_bot/package.sh'
+[3.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/my_bot/share/my_bot/package.bash'
+[3.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/my_bot/share/my_bot/package.zsh'
+[3.968s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/winicon/smilebot_ws/install/my_bot/share/colcon-core/packages/my_bot)
+[3.985s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/winicon/smilebot_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winicon/smilebot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/winicon/smilebot_ws/build/serial
+[4.198s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[4.199s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/diffdrive_arduino' for CMake module files
+[4.219s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/diffdrive_arduino' for CMake config files
+[4.249s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[4.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[4.294s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[4.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[4.325s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/diffdrive_arduino/lib'
+[4.326s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[4.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[4.331s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[4.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[4.339s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/diffdrive_arduino/bin'
+[4.340s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[4.342s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/diffdrive_arduino/lib/python3.10/site-packages'
+[4.343s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/diffdrive_arduino/bin'
+[4.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[4.351s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[4.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[4.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[4.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[4.373s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/winicon/smilebot_ws/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[4.387s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[4.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/winicon/smilebot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winicon/smilebot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/winicon/smilebot_ws/build/serial
+[4.390s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/serial' for CMake module files
+[4.395s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/serial' for CMake config files
+[4.410s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[4.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/smilebot_ws/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[4.416s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/winicon/smilebot_ws/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[4.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/smilebot_ws/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[4.432s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/serial/lib'
+[4.433s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/serial/bin'
+[4.433s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/serial/lib/pkgconfig/serial.pc'
+[4.435s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/serial/lib/python3.10/site-packages'
+[4.437s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/serial/bin'
+[4.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/serial/share/serial/package.ps1'
+[4.442s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/winicon/smilebot_ws/install/serial/share/serial/package.dsv'
+[4.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/serial/share/serial/package.sh'
+[4.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/serial/share/serial/package.bash'
+[4.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/serial/share/serial/package.zsh'
+[4.461s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/winicon/smilebot_ws/install/serial/share/colcon-core/packages/serial)
+[4.802s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[4.803s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/serial' for CMake module files
+[4.809s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/serial' for CMake config files
+[4.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[4.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/smilebot_ws/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[4.827s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/winicon/smilebot_ws/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[4.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/smilebot_ws/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[4.838s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/serial/lib'
+[4.838s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/serial/bin'
+[4.839s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/serial/lib/pkgconfig/serial.pc'
+[4.841s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/serial/lib/python3.10/site-packages'
+[4.843s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/serial/bin'
+[4.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/serial/share/serial/package.ps1'
+[4.856s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/winicon/smilebot_ws/install/serial/share/serial/package.dsv'
+[4.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/serial/share/serial/package.sh'
+[4.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/serial/share/serial/package.bash'
+[4.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/serial/share/serial/package.zsh'
+[4.874s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/winicon/smilebot_ws/install/serial/share/colcon-core/packages/serial)
+[5.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/winicon/smilebot_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winicon/smilebot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/winicon/smilebot_ws/build/serial_motor_demo_msgs -- -j4 -l4
+[6.894s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/winicon/smilebot_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winicon/smilebot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/winicon/smilebot_ws/build/serial_motor_demo_msgs
+[7.482s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[7.483s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs' for CMake module files
+[7.489s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs' for CMake config files
+[7.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/winicon/smilebot_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winicon/smilebot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/winicon/smilebot_ws/build/serial_motor_demo_msgs
+[7.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[7.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[7.523s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[7.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[7.530s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/lib'
+[7.531s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[7.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[7.535s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[7.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[7.542s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/bin'
+[7.543s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[7.545s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/lib/python3.10/site-packages'
+[7.547s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/bin'
+[7.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[7.553s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[7.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[7.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[7.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[7.570s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[8.409s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[8.410s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs' for CMake module files
+[8.415s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs' for CMake config files
+[8.425s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[8.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[8.430s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[8.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[8.437s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/lib'
+[8.438s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[8.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[8.442s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[8.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[8.450s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/bin'
+[8.451s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[8.453s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/lib/python3.10/site-packages'
+[8.454s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/bin'
+[8.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[8.461s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[8.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[8.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[8.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[8.472s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/winicon/smilebot_ws/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[8.474s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/winicon/smilebot_ws/src/serial_motor_demo/serial_motor_demo' with build type 'ament_python'
+[8.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'ament_prefix_path')
+[8.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/smilebot_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.ps1'
+[8.482s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/winicon/smilebot_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.dsv'
+[8.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/smilebot_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.sh'
+[8.487s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.488s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.337s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/winicon/smilebot_ws/src/serial_motor_demo/serial_motor_demo'
+[10.338s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.339s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/winicon/smilebot_ws/build/serial_motor_demo': PYTHONPATH=/home/winicon/smilebot_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/winicon/smilebot_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/winicon/smilebot_ws/build/serial_motor_demo/build --no-deps symlink_data
+[14.966s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'pythonpath_develop')
+[14.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/smilebot_ws/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.ps1'
+[14.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/winicon/smilebot_ws/build/serial_motor_demo' returned '0': PYTHONPATH=/home/winicon/smilebot_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/winicon/smilebot_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/winicon/smilebot_ws/build/serial_motor_demo/build --no-deps symlink_data
+[14.971s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/winicon/smilebot_ws/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.dsv'
+[14.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/smilebot_ws/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.sh'
+[14.975s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/serial_motor_demo' for CMake module files
+[14.977s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/serial_motor_demo' for CMake config files
+[14.981s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/serial_motor_demo/lib'
+[14.982s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/serial_motor_demo/bin'
+[14.982s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/serial_motor_demo/lib/pkgconfig/serial_motor_demo.pc'
+[14.984s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/serial_motor_demo/lib/python3.10/site-packages'
+[14.984s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'pythonpath')
+[14.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/smilebot_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.ps1'
+[14.987s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/winicon/smilebot_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.dsv'
+[14.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/smilebot_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.sh'
+[14.992s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/smilebot_ws/install/serial_motor_demo/bin'
+[14.992s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo)
+[14.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/serial_motor_demo/share/serial_motor_demo/package.ps1'
+[14.997s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/winicon/smilebot_ws/install/serial_motor_demo/share/serial_motor_demo/package.dsv'
+[15.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/serial_motor_demo/share/serial_motor_demo/package.sh'
+[15.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/serial_motor_demo/share/serial_motor_demo/package.bash'
+[15.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/smilebot_ws/install/serial_motor_demo/share/serial_motor_demo/package.zsh'
+[15.007s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/winicon/smilebot_ws/install/serial_motor_demo/share/colcon-core/packages/serial_motor_demo)
+[15.009s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.010s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.011s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.011s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.036s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.036s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.037s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.488s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.490s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/winicon/smilebot_ws/install/local_setup.ps1'
+[15.494s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/winicon/smilebot_ws/install/_local_setup_util_ps1.py'
+[15.501s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/winicon/smilebot_ws/install/setup.ps1'
+[15.509s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/winicon/smilebot_ws/install/local_setup.sh'
+[15.512s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/winicon/smilebot_ws/install/_local_setup_util_sh.py'
+[15.514s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/winicon/smilebot_ws/install/setup.sh'
+[15.523s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/winicon/smilebot_ws/install/local_setup.bash'
+[15.526s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/winicon/smilebot_ws/install/setup.bash'
+[15.533s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/winicon/smilebot_ws/install/local_setup.zsh'
+[15.536s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/winicon/smilebot_ws/install/setup.zsh'

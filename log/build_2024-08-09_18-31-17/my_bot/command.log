@@ -1,0 +1,2 @@
+Invoking command in '/home/winicon/smilebot_ws/build/my_bot': /usr/bin/cmake /home/winicon/smilebot_ws/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/winicon/smilebot_ws/install/my_bot
+Invoked command in '/home/winicon/smilebot_ws/build/my_bot' returned '1': /usr/bin/cmake /home/winicon/smilebot_ws/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/winicon/smilebot_ws/install/my_bot
